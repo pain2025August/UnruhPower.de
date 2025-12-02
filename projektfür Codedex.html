@@ -1,51 +1,48 @@
 <!DOCTYPE html>
 <html>
+    <!-- Ich muss hier im Head Schreiben was das ist und link damit es auf Styles.ccs geht -->
     <head>
         <title>Mein Projekt für Codedex</title>
-        <style>
-            nav {
-                background-color: rgb(255, 200, 0);
-            }
-            body{
-                background-color: bisque;
-            }
-            footer{
-                background-color: azure;
-            }
-            p{
-
-            }
-            h1{
-                background-position: 0cqmax;
-                background-color: red;
-
-            }
-            h2{
-
-            }
-            div{
-
-            }
-        </style>
-        
+              
     </head>
-    <header>
-        <h1>Bestellliste für Dich</h1>
-        <p>Was willst du Bestellen? </p><br/>
-    
-        <nav>
-            <li>Essen</li>
-            <li>Trinken</li>
-            <li>Nachtisch</li>
-        </nav>
+    <header><!-- das ist Oben in der Seite, kann ich schreiben Menü punkte usw. -->
+         
     </header>
-    <body>
+    <body><!-- hier schreibe ich alles was in der seite angezeigt werden soll, menü /Preise/ usw.
+                in CSS nicht vergessen Rheinfolge und Preise in Eine Linie zu Bringen-->
         <div>
-
+            <h1>Bitte sehen Sie hier was wir alles anbieten</h1>
+        </div>
+        <div class="Ware">
+            <h2>Unsere Angebot</h2>
+        <ul>
+            <li>Kaffe</li>
+            <li>Kuchen</li>
+            <li>Süsigkeiten
+                <ul>
+                <li>Gumibärchen</li>
+                <li>Snacs (shokolade)</li>
+                <li>Früchte</li>
+                </ul>
+            </li>
+        </ul>
+        </div>
+        <div class="Preisliste">
+            <h2>Unsere Preise</h2>
+<!--Kaffe Soll 3,5 € Kosten --><p class="Kaffe">3,5 €</p>
+<!--Kuchen Soll 5,50 € Kosten --><p class="Kuchen">5,50 €</p>
+<!--Süssigkeiten Soll 3,5 € Kosten --><p class="Süsigkeiten">ab 2,5 €</p>
+                        <p>
+                            <ul>
+                                <!--Gümmibärchen 2,5 € --><li class="Gumibärchen">2,5 €</li>
+                                <!--Snacs 3,5 € --><li class="Snacs">3,5 €</li>
+                                <!--Früchte 5,5 € --><li class="Früchte">5,5€</li>
+                            </ul>
+                        </p>
         </div>
 
     </body>
-    <footer>
+    <footer><!-- Hier ist alles was unten in der Seite Stehen soll. -->
         <p><a href="impresium.html">Impresium</a></p>
         <p><a href="über Uns.html">Über UNS</a></p>
         <p><a href="Bewerte Uns.html">Bewerte Uns</a></p>
