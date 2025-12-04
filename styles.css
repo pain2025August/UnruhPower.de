@@ -1,4 +1,20 @@
 /*ich will hier versuchen die beiden div elemente nebeneinander anzuzeigen*/
 body{
     background-color: blanchedalmond;
+    border-radius: 75%;
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+div.Ware{
+    border: 2px solid red;
+    text-align: left;
+
+}
+div.Preisliste{
+    
+    border: 2px, solid green;
+    text-align: right;
+    
+    width: 50%;
 }
