@@ -8,13 +8,16 @@ h1 {
 }
 div.Ware{
     border: 2px solid red;
+    width: 200px;
+    padding: auto;
     text-align: left;
-
+    box-sizing: border-box;
 }
 div.Preisliste{
     
     border: 2px, solid green;
     text-align: right;
-    
-    width: 50%;
+    padding: auto;
+    width: 300px;
+    box-sizing: border-box;
 }
