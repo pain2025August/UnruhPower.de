@@ -7,17 +7,16 @@ h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 div.Ware{
+    display: flex;
+    flex-wrap: wrap;
     border: 2px solid red;
     width: 200px;
-    padding: auto;
-    text-align: left;
-    box-sizing: border-box;
+    
 }
 div.Preisliste{
-    
+    display: flex;
+    justify-content: flex-end;
     border: 2px, solid green;
-    text-align: right;
-    padding: auto;
-    width: 300px;
-    box-sizing: border-box;
+   flex-direction: row;
+    
 }
