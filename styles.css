@@ -1,15 +1,26 @@
-/*ich will hier versuchen die beiden div elemente nebeneinander anzuzeigen*/
+/*Will die Cleaner seite haben mit Fotos von Meinem Eigenen Projekten*/
 body{
     background-color: blanchedalmond;
     border-radius: 75%;
 }
+
 h1 {
-
+ color-scheme: darkred;
+ color: darkgreen;
 }
+
 h2 {
-  
+ color-scheme: darkred;
+ color: darkblue;
 }
 
-footer{
-   
+p {
+color-scheme: darkred;
+color: darkred;
+}
+
+a {
+.hover: green;
+.aktiv: red;
+.
 }
