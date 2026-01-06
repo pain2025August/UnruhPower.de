@@ -42,13 +42,23 @@
             <h2>So könnt Ihr mich Kontaktieren</h2>
             <p>Meine Kontaktdaten</p>
             <address>
-                <a href="mailto:info@unruh-power.de">Mein E-mail</a>
+                <a href="mailto:andrej@unruh-power.de">Mein E-mail</a>
                 <a href="tel:+491743450218">Mein Handy telNr.</a>
                 <a href="youtube:https://www.youtube.com/channel/UCgJb-HPjSWrG8wIKEctTC3Q">Mein Youtube</a>
                 <a href="tiktok:https://www.tiktok.com/@andypain08">Mein TikTok</a>
             </address>
             <p>Bzw. über mein Kontaktformular</p>
-            <form action=""></form>
+        <form action="#" method="POST" class="my-form">
+            <label for="name">Ihr Name</label>
+            <input type="text" name="Name" id="name" required>
+            <label for="email">Ihre E-Mail-Adresse</label>
+            <input type="email" name="Email" id="email" required>
+            <label for="message">Was möchten Sie uns mitteilen?</label>
+            <textarea name="Nachricht" id="message" cols="30" rows="6"></textarea>
+            <div class="btns-row">
+            <button type="submit">Formular absenden</button>
+            </div>
+        </form>
         </section>
         
 
